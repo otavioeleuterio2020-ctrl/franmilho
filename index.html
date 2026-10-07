@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pamonharia Fran Milho & Cia | Pamonhas artesanais em Franca-SP</title>
+<meta name="description" content="Pamonhas artesanais, curau, bolo de milho e muito mais em Franca-SP. Peça pelo WhatsApp, iFood ou AiQfome.">
+<meta property="og:title" content="Pamonharia Fran Milho & Cia">
+<meta property="og:description" content="O sabor do milho, do jeitinho que você ama.">
+<meta property="og:image" content="img/pamonha.webp">
+<meta name="theme-color" content="#17381F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Bakery","name":"Pamonharia Fran Milho & Cia","telephone":"+5516991935353","address":{"@type":"PostalAddress","streetAddress":"Avenida Elias Motta, 2069","addressLocality":"Franca","addressRegion":"SP","postalCode":"14402-275","addressCountry":"BR"},"sameAs":["https://instagram.com/franmilho"]}</script>
+<style>
+:root{--milho:#F2B632;--ouro:#D08A22;--creme:#FBF3E1;--off:#FFFBF2;--verde:#17381F;--verde2:#245232;--terra:#6E4421;--tinta:#2A2218;--r:18px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:Figtree,system-ui,sans-serif;background:var(--off);color:var(--tinta);line-height:1.6;font-size:17px;padding-bottom:76px}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:'Young Serif',Georgia,serif;font-weight:400;line-height:1.08}
+h1{font-size:clamp(2.4rem,9vw,5rem)}
+h2{font-size:clamp(1.9rem,6vw,3.2rem)}
+:focus-visible{outline:3px solid var(--milho);outline-offset:3px}
+.wrap{width:min(1120px,92%);margin:auto}
+section{padding:72px 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:52px;padding:0 28px;border-radius:99px;font-weight:700;text-decoration:none;border:2px solid transparent;transition:transform .2s,box-shadow .2s,background .2s;cursor:pointer;font-size:1rem}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.2)}
+.btn:active{transform:none}
+.b-wa{background:#25D366;color:#073B1A}
+.b-gold{background:var(--milho);color:var(--verde)}
+.b-line{border-color:currentColor;color:inherit;background:transparent}
+.b-ifood{background:#EA1D2C;color:#fff}.b-aiq{background:#7B2D8E;color:#fff}
+/* header */
+header{position:fixed;inset:0 0 auto;z-index:50;transition:background .3s,box-shadow .3s}
+header.s{background:rgba(23,56,31,.96);box-shadow:0 4px 20px rgba(0,0,0,.2)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px;color:#fff}
+.logo{font-family:'Young Serif',serif;font-size:1.15rem;text-decoration:none;color:var(--milho)}
+.nav ul{display:flex;gap:26px;list-style:none;padding:0}
+.nav ul a{text-decoration:none;font-weight:500;font-size:.95rem;opacity:.9}
+.nav ul a:hover{color:var(--milho)}
+.burger{display:none;background:none;border:0;color:#fff;width:48px;height:48px;font-size:1.7rem;cursor:pointer}
+@media(max-width:820px){.burger{display:block}
+.nav ul{position:fixed;inset:64px 0 auto;background:var(--verde);flex-direction:column;padding:12px 6% 28px;gap:0;transform:translateY(-130%);transition:transform .35s}
+.nav ul.open{transform:none}.nav ul a{display:block;padding:16px 0;font-size:1.2rem;border-bottom:1px solid rgba(255,255,255,.12)}}
+/* hero */
+.hero{background:var(--verde);color:#fff;min-height:100svh;display:flex;align-items:center;padding:100px 0 60px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:620px;height:620px;border-radius:50%;background:radial-gradient(var(--ouro),transparent 68%);opacity:.35;right:-160px;top:10%}
+.hero .wrap{display:grid;gap:40px;align-items:center;position:relative}
+@media(min-width:900px){.hero .wrap{grid-template-columns:1.05fr .95fr}}
+.hero p.sub{font-size:1.2rem;max-width:34em;margin:22px 0 32px;color:#F3E8CC}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px}
+.hero figure{position:relative;transform:rotate(2deg)}
+.hero figure img{border-radius:var(--r) var(--r) 120px var(--r);aspect-ratio:1;object-fit:cover;width:100%;box-shadow:0 30px 60px rgba(0,0,0,.45);border:6px solid var(--creme)}
+.scroll{position:absolute;bottom:18px;left:50%;translate:-50% 0;color:var(--milho);font-size:1.6rem;animation:bob 2s infinite;text-decoration:none}
+@keyframes bob{50%{transform:translateY(8px)}}
+/* quick order */
+.quick{background:var(--milho);padding:34px 0}
+.quick .wrap{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between}
+.quick h2{font-size:clamp(1.5rem,4.5vw,2.2rem);color:var(--verde)}
+.quick .cta-row .btn{min-width:150px}
+/* impact */
+.impact{background:var(--creme)}
+.impact .wrap{display:grid;gap:36px;align-items:center}
+@media(min-width:860px){.impact .wrap{grid-template-columns:1fr 1fr}}
+.impact .ph{overflow:hidden;border-radius:var(--r);aspect-ratio:4/3}
+.impact .ph img{width:100%;height:100%;object-fit:cover;animation:zoom 18s ease-in-out infinite alternate}
+@keyframes zoom{to{transform:scale(1.1)}}
+.impact p{font-size:1.2rem;margin-top:18px;max-width:30em;color:var(--terra)}
+/* story */
+.story .wrap{display:grid;gap:40px;align-items:center}
+@media(min-width:860px){.story .wrap{grid-template-columns:.9fr 1.1fr}}
+.story ul{list-style:none;padding:0;margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:10px 18px}
+.story li:before{content:"🌽 "}
+.story .ph{position:relative}
+.story .ph img{border-radius:var(--r);width:100%;aspect-ratio:1;object-fit:cover}
+.story .ph .tag{position:absolute;left:-10px;bottom:22px;background:var(--verde);color:var(--milho);padding:12px 20px;border-radius:12px;font-family:'Young Serif',serif;box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.story p{margin-top:16px;max-width:36em}
+/* menu */
+.menu{background:var(--verde);color:#fff}
+.menu h2{text-align:center}
+.tabs{display:flex;gap:10px;overflow-x:auto;padding:26px 0;justify-content:center;scrollbar-width:none}
+.tab{flex:none;min-height:46px;padding:0 22px;border-radius:99px;border:2px solid var(--milho);background:none;color:var(--milho);font:700 1rem Figtree;cursor:pointer;transition:.2s}
+.tab[aria-selected=true]{background:var(--milho);color:var(--verde)}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.card{background:var(--off);color:var(--tinta);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .3s}
+.card:hover{transform:translateY(-6px)}
+.card .im{aspect-ratio:4/3;overflow:hidden}
+.card .im img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.card:hover .im img{transform:scale(1.07)}
+.card .bd{padding:20px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-size:1.35rem}
+.card p{font-size:.95rem;color:#5a4d3c;flex:1}
+.card .pr{font-weight:700;color:var(--ouro);font-size:.95rem}
+.card .btn{min-height:46px;margin-top:6px}
+.note{text-align:center;margin-top:26px;color:#E7DDBF;font-size:.95rem}
+/* sensorial */
+.sens{background:var(--creme);padding:0;overflow:hidden}
+.sens .row{display:grid;min-height:70vh}
+@media(min-width:800px){.sens .row{grid-template-columns:repeat(3,1fr)}}
+.sens .cell{position:relative;min-height:300px;display:flex;align-items:flex-end;padding:26px;color:#fff;overflow:hidden}
+.sens .cell img{position:absolute;inset:-12% 0;width:100%;height:124%;object-fit:cover;z-index:0;will-change:transform}
+.sens .cell:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 40%,rgba(23,40,20,.85))}
+.sens .cell span{position:relative;z-index:1;font-family:'Young Serif',serif;font-size:clamp(2rem,5vw,3rem)}
+/* why */
+.why h2{text-align:center;margin-bottom:40px}
+.why .g{display:grid;gap:26px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.why .it{padding:6px 4px 6px 20px;border-left:4px solid var(--milho)}
+.why svg{width:38px;height:38px;stroke:var(--verde2);fill:none;stroke-width:1.6;margin-bottom:10px}
+.why h3{font-size:1.4rem;margin-bottom:6px}
+/* gallery */
+.gal{background:var(--creme)}
+.gal h2{margin-bottom:30px}
+.masonry{columns:2 160px;column-gap:14px}
+@media(min-width:800px){.masonry{columns:3}}
+.masonry button{display:block;width:100%;padding:0;border:0;margin-bottom:14px;border-radius:14px;overflow:hidden;cursor:zoom-in;background:none;break-inside:avoid}
+.masonry img{width:100%;transition:transform .5s,filter .3s}
+.masonry button:hover img{transform:scale(1.05);filter:brightness(1.08)}
+.lb{position:fixed;inset:0;background:rgba(10,20,12,.93);z-index:100;display:none;align-items:center;justify-content:center;padding:20px}
+.lb.on{display:flex}.lb img{max-height:90vh;border-radius:10px}
+.lb button{position:absolute;top:14px;right:14px;width:52px;height:52px;border-radius:50%;border:0;background:var(--milho);font-size:1.5rem;cursor:pointer}
+/* insta */
+.insta .top{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:end;margin-bottom:28px}
+.insta .feed{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+@media(min-width:800px){.insta .feed{grid-template-columns:repeat(6,1fr)}}
+.insta .feed a{aspect-ratio:1;overflow:hidden;border-radius:10px;position:relative}
+.insta .feed img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.insta .feed a:hover img{transform:scale(1.1)}
+.b-ig{background:linear-gradient(45deg,#F2B632,#E1306C,#833AB4);color:#fff}
+/* reviews */
+.rev{background:var(--verde);color:#fff}
+.rev h2{text-align:center;margin-bottom:34px}
+.rev .g{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.rev blockquote{background:rgba(255,255,255,.07);border:1px dashed rgba(242,182,50,.6);border-radius:var(--r);padding:26px}
+.rev blockquote p{font-family:'Young Serif',serif;font-size:1.15rem}
+.rev cite{display:block;margin-top:14px;font-style:normal;color:var(--milho);font-size:.9rem}
+/* location */
+.loc .wrap{display:grid;gap:30px}
+@media(min-width:900px){.loc .wrap{grid-template-columns:.8fr 1.2fr}}
+.loc address{font-style:normal;font-size:1.2rem;margin:16px 0 22px}
+.stores{display:grid;gap:12px;margin:0 0 24px;font-size:.95rem}
+.stores div{background:var(--creme);border-radius:12px;padding:14px 16px}
+.stores b{font-family:'Young Serif',serif;font-weight:400;font-size:1.05rem}
+.loc iframe{width:100%;height:100%;min-height:380px;border:0;border-radius:var(--r)}
+/* order */
+.order{background:linear-gradient(160deg,var(--milho),var(--ouro));text-align:center;color:var(--verde)}
+.order p{font-size:1.2rem;margin:14px 0 30px}
+.order .cta-row{justify-content:center}
+.order .btn{min-width:230px;min-height:60px;font-size:1.05rem}
+/* final */
+.final{position:relative;color:#fff;text-align:center;padding:130px 0;background:linear-gradient(rgba(23,40,20,.65),rgba(23,40,20,.78)),url(img/bolo-doce.webp) center/cover fixed}
+.final h2{margin-bottom:28px}
+footer{background:#10261A;color:#D8CFB4;padding:56px 0 30px;font-size:.95rem}
+footer .wrap{display:grid;gap:28px}
+@media(min-width:800px){footer .wrap{grid-template-columns:1.3fr 1fr 1fr}}
+footer h3{color:var(--milho);font-size:1.2rem;margin-bottom:10px}
+footer ul{list-style:none;padding:0;display:grid;gap:6px}
+footer a{text-decoration:none}footer a:hover{color:var(--milho)}
+footer .end{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.12);padding-top:20px;font-family:'Young Serif',serif;color:var(--milho)}
+/* sticky mobile */
+.fab{position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 4%;background:rgba(255,251,242,.95);backdrop-filter:blur(8px);box-shadow:0 -4px 18px rgba(0,0,0,.12);display:flex;gap:10px}
+.fab .btn{flex:1;min-height:54px}
+@media(min-width:900px){.fab{left:auto;right:22px;bottom:22px;background:none;box-shadow:none;padding:0}.fab .b-menu{display:none}body{padding-bottom:0}}
+.rv{opacity:0;transform:translateY(24px);transition:opacity .9s,transform .9s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header id="hd"><div class="wrap nav">
+<a class="logo" href="#topo">Fran Milho & Cia</a>
+<button class="burger" id="bg" aria-label="Abrir menu" aria-expanded="false">☰</button>
+<ul id="nv"><li><a href="#historia">Nossa história</a></li><li><a href="#cardapio">Cardápio</a></li><li><a href="#galeria">Galeria</a></li><li><a href="#lojas">Lojas</a></li><li><a class="btn b-wa" data-wa href="#">Pedir</a></li></ul>
+</div></header>
+
+<main id="topo">
+<section class="hero"><div class="wrap">
+<div><h1>O sabor do milho, do jeitinho que você ama.</h1>
+<p class="sub">Pamonhas artesanais e delícias do milho preparadas com sabor, tradição e muito carinho.</p>
+<div class="cta-row"><a class="btn b-wa" data-wa href="#">Fazer meu pedido</a><a class="btn b-line" href="#cardapio">Conhecer nosso cardápio</a></div></div>
+<figure><img src="img/pamonha.webp" alt="Pamonha artesanal aberta, mostrando a massa cremosa de milho" width="1080" height="1080" fetchpriority="high"></figure>
+</div><a class="scroll" href="#pedido-rapido" aria-label="Continuar navegando">↓</a></section>
+
+<div class="quick" id="pedido-rapido"><div class="wrap"><h2>Bateu a vontade? Peça agora.</h2>
+<div class="cta-row"><a class="btn b-wa" data-wa href="#">WhatsApp</a><a class="btn b-ifood" data-ifood href="#">iFood</a><a class="btn b-aiq" data-aiq href="#">AiQfome</a></div></div></div>
+
+<section class="impact"><div class="wrap">
+<div class="rv"><h2>Feito com milho. Feito com carinho.</h2><p>Da escolha dos ingredientes ao preparo, cada detalhe é pensado para entregar aquele sabor que lembra comida feita com carinho.</p></div>
+<div class="ph rv"><img src="img/gratinada.webp" alt="Pamonha gratinada dourada na palha de milho" loading="lazy"></div>
+</div></section>
+
+<section class="story" id="historia"><div class="wrap">
+<div class="ph rv"><img src="img/fachada.webp" alt="Fachada da Pamonharia Fran Milho" loading="lazy"><span class="tag">Delícias do milho</span></div>
+<div class="rv"><h2>Mais que pamonha. Uma experiência de sabor.</h2>
+<p><!-- EDITAR: texto institucional --> Na Fran Milho, o milho é o centro de tudo. Pamonhas, curau, bolos e bolinhos feitos de forma artesanal, com cuidado em cada etapa, para você levar para casa um sabor de verdade.</p>
+<ul><li>Preparo artesanal</li><li>Qualidade</li><li>Sabor</li><li>Tradição</li><li>Cuidado</li><li>Muita variedade</li></ul></div>
+</div></section>
+
+<section class="menu" id="cardapio"><div class="wrap">
+<h2>Nossas delícias</h2>
+<div class="tabs" role="tablist" id="tabs"></div>
+<div class="grid" id="grid" role="tabpanel"></div>
+<p class="note">Valores e disponibilidade: consulte pelo WhatsApp. Sabores e preços editáveis no início do script.</p>
+</div></section>
+
+<section class="sens"><div class="row">
+<div class="cell"><img data-p src="img/bolo-milho.webp" alt="" loading="lazy"><span>Cremoso.</span></div>
+<div class="cell"><img data-p src="img/pamonha.webp" alt="" loading="lazy"><span>Artesanal.</span></div>
+<div class="cell"><img data-p src="img/bolinho.webp" alt="" loading="lazy"><span>Irresistível.</span></div>
+</div></section>
+
+<section class="why"><div class="wrap"><h2>Por que Fran Milho?</h2><div class="g">
+<div class="it rv"><svg viewBox="0 0 24 24"><path d="M12 21c-4-3-6-6-6-10a6 6 0 0112 0c0 4-2 7-6 10z"/><path d="M12 8v8"/></svg><h3>Artesanal</h3><p>Produtos preparados com cuidado e atenção aos detalhes.</p></div>
+<div class="it rv"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 13s1.5 3 4 3 4-3 4-3M9 9h.01M15 9h.01"/></svg><h3>Sabor de verdade</h3><p>Receitas pensadas para valorizar o sabor do milho.</p></div>
+<div class="it rv"><svg viewBox="0 0 24 24"><path d="M12 3l2.6 5.6 6 .8-4.4 4.2 1.1 6L12 16.7 6.7 19.6l1.1-6L3.4 9.4l6-.8z"/></svg><h3>Qualidade</h3><p>Ingredientes e preparo apresentados com cuidado.</p></div>
+<div class="it rv"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 01-12 7l-5 1.5L5.5 16A8 8 0 1121 12z"/></svg><h3>Facilidade para pedir</h3><p>Peça pelo WhatsApp, iFood, Direct ou AiQfome.</p></div>
+</div></div></section>
+
+<section class="gal" id="galeria"><div class="wrap"><h2>Um pedacinho da nossa mesa</h2>
+<div class="masonry" id="masonry"></div></div></section>
+
+<section class="insta"><div class="wrap"><div class="top"><div><h2>Acompanhe a Fran Milho</h2><p style="margin-top:10px">Mais sabor, novidades e delícias direto no nosso Instagram.</p></div>
+<a class="btn b-ig" href="https://instagram.com/franmilho" target="_blank" rel="noopener">@franmilho</a></div>
+<div class="feed" id="feed"></div></div></section>
+
+<section class="rev"><div class="wrap"><h2>Quem experimenta, aprova.</h2><div class="g">
+<blockquote><p contenteditable="true">[Espaço para avaliação real de cliente]</p><cite>Nome do cliente</cite></blockquote>
+<blockquote><p contenteditable="true">[Espaço para avaliação real de cliente]</p><cite>Nome do cliente</cite></blockquote>
+<blockquote><p contenteditable="true">[Espaço para avaliação real de cliente]</p><cite>Nome do cliente</cite></blockquote>
+</div></div></section>
+
+<section class="loc" id="lojas"><div class="wrap">
+<div><h2>Venha nos visitar</h2>
+<address><b>Avenida Major Elias Motta, 2069</b><br>Franca - SP<br>CEP 14402-275</address>
+<div class="stores">
+<div><b>Loja 1 · Jd. São Luiz</b><br>Av. Major Elias Motta, 2069<br>Seg a sex 8h30–18h30 · Sáb 8h30–17h</div>
+<div><b>Loja 2 · Jd. Noêmia</b><br>Av. Chafic Facury, 4920<br>Seg a sex 8h30–19h · Sáb 8h30–17h30</div>
+<div><b>Loja 3 · Vila Nova</b><br>Av. Francisco Marques, 826<br>Seg a sex 8h30–18h30 · Sáb 8h30–14h</div>
+<div>Domingo: verifique a disponibilidade pelo WhatsApp.</div></div>
+<div class="cta-row"><a class="btn b-gold" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=Avenida+Major+Elias+Motta+2069+Franca+SP">Como chegar</a><a class="btn b-wa" data-wa href="#">(16) 99193-5353</a></div></div>
+<iframe title="Mapa da Fran Milho" loading="lazy" src="https://www.google.com/maps?q=Avenida+Major+Elias+Motta+2069+Franca+SP&output=embed"></iframe>
+</div></section>
+
+<section class="order"><div class="wrap"><h2>Deu vontade? Não resista.</h2><p>Escolha suas delícias favoritas e faça seu pedido.</p>
+<div class="cta-row"><a class="btn b-wa" data-wa href="#">Pedir pelo WhatsApp</a><a class="btn b-ifood" data-ifood href="#">Pedir pelo iFood</a><a class="btn b-aiq" data-aiq href="#">Pedir pelo AiQfome</a></div></div></section>
+
+<section class="final"><div class="wrap"><h2>Um sabor que faz você voltar.</h2><a class="btn b-gold" data-wa href="#">Fazer meu pedido</a></div></section>
+</main>
+
+<footer><div class="wrap">
+<div><h3>Pamonharia Fran Milho & Cia</h3><p>Delícias do milho em Franca-SP.<br>Av. Major Elias Motta, 2069 · CEP 14402-275</p></div>
+<div><h3>Peça</h3><ul><li><a data-wa href="#">WhatsApp (16) 99193-5353</a></li><li><a data-ifood href="#">iFood</a></li><li><a data-aiq href="#">AiQfome</a></li><li><a href="https://instagram.com/franmilho" target="_blank" rel="noopener">Instagram @franmilho</a></li></ul></div>
+<div><h3>Horários (Loja 1)</h3><p>Seg a sex: 8h30–18h30<br>Sábado: 8h30–17h<br>Domingo: consulte no WhatsApp</p></div>
+<p class="end">Sabor artesanal em cada detalhe.</p></div></footer>
+
+<div class="fab"><a class="btn b-wa" data-wa href="#">WhatsApp</a><a class="btn b-gold b-menu" href="#cardapio">Cardápio</a></div>
+<div class="lb" id="lb" role="dialog" aria-label="Imagem ampliada"><button aria-label="Fechar">✕</button><img alt=""></div>
+
+<script>
+/* ===== CONFIGURAÇÃO EDITÁVEL ===== */
+const CFG={
+ wa:"5516991935353",
+ msg:"Olá! Vim pelo site e gostaria de fazer um pedido.",
+ ifood:"#",   // COLOQUE AQUI o link do iFood
+ aiq:"#"      // COLOQUE AQUI o link do AiQfome
+};
+/* Preços: preencha "preco" (ex.: "R$ 8,00"). Vazio = "Consulte o valor" */
+const MENU={
+ "Pamonhas":[
+  {n:"Pamonha doce",d:"Massa cremosa de milho, no ponto doce, na palha.",i:"pamonha",preco:""},
+  {n:"Pamonha de sal",d:"Tradicional, macia e cheia de sabor de milho.",i:"pamonha",preco:""},
+  {n:"Pamonha de linguiça",d:"Recheio saboroso dentro da massa de milho.",i:"pamonha",preco:""},
+  {n:"Pamonha romeu e julieta",d:"A combinação clássica de queijo e doce.",i:"pamonha",preco:""},
+  {n:"Pamonha gratinada",d:"Com queijo gratinado por cima, douradinha.",i:"gratinada",preco:""}],
+ "Curau":[{n:"Curau",d:"Cremoso e artesanal, feito de milho.",i:"pamonha",preco:""}],
+ "Bolos":[
+  {n:"Bolo de milho com queijo",d:"Macio, dourado, com queijo.",i:"bolo-milho",preco:""},
+  {n:"Bolo de milho com cobertura",d:"Bolo de milho com cobertura brilhante.",i:"bolo-doce",preco:""}],
+ "Especialidades":[{n:"Bolinho de milho frito",d:"Crocante por fora, macio por dentro.",i:"bolinho",preco:""}]
+};
+const GAL=[["pamonha","Pamonha aberta"],["bolo-milho","Bolo de milho"],["fachada","Fachada da loja"],["gratinada","Pamonha gratinada"],["bolinho","Bolinhos de milho fritos"],["bolo-doce","Bolo com cobertura"],["pao-milho","Pão artesanal"],["horarios","Horários de funcionamento"]];
+/* ================================== */
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const wa=t=>`https://wa.me/${CFG.wa}?text=${encodeURIComponent(t||CFG.msg)}`;
+function links(){$$("[data-wa]").forEach(a=>{a.href=wa(a.dataset.msg);a.target="_blank";a.rel="noopener"});
+ $$("[data-ifood]").forEach(a=>{a.href=CFG.ifood;if(CFG.ifood!="#"){a.target="_blank";a.rel="noopener"}});
+ $$("[data-aiq]").forEach(a=>{a.href=CFG.aiq;if(CFG.aiq!="#"){a.target="_blank";a.rel="noopener"}})}
+function show(cat){$$(".tab").forEach(t=>t.setAttribute("aria-selected",t.dataset.c==cat));
+ $("#grid").innerHTML=MENU[cat].map(p=>`<article class="card"><div class="im"><img src="img/${p.i}.webp" alt="${p.n}" loading="lazy"></div><div class="bd"><h3>${p.n}</h3><p>${p.d}</p><span class="pr">${p.preco||"Consulte o valor"}</span><a class="btn b-wa" data-wa data-msg="Olá! Gostaria de pedir: ${p.n}" href="#">Pedir</a></div></article>`).join("");links()}
+$("#tabs").innerHTML=Object.keys(MENU).map(c=>`<button class="tab" role="tab" data-c="${c}">${c}</button>`).join("");
+$("#tabs").onclick=e=>e.target.dataset.c&&show(e.target.dataset.c);
+show("Pamonhas");
+$("#masonry").innerHTML=GAL.map(([f,a])=>`<button aria-label="Ampliar: ${a}"><img src="img/${f}.webp" alt="${a}" loading="lazy"></button>`).join("");
+$("#feed").innerHTML=["pamonha","bolo-milho","gratinada","bolinho","bolo-doce","fachada"].map(f=>`<a href="https://instagram.com/franmilho" target="_blank" rel="noopener" aria-label="Ver no Instagram"><img src="img/${f}.webp" alt="" loading="lazy"></a>`).join("");
+const lb=$("#lb");
+$("#masonry").onclick=e=>{const b=e.target.closest("button");if(!b)return;const im=b.querySelector("img");lb.querySelector("img").src=im.src;lb.querySelector("img").alt=im.alt;lb.classList.add("on");lb.querySelector("button").focus()};
+lb.onclick=()=>lb.classList.remove("on");
+addEventListener("keydown",e=>e.key=="Escape"&&lb.classList.remove("on"));
+const hd=$("#hd"),nv=$("#nv"),bg=$("#bg");
+bg.onclick=()=>{const o=nv.classList.toggle("open");bg.setAttribute("aria-expanded",o);bg.textContent=o?"✕":"☰"};
+nv.onclick=e=>{if(e.target.tagName=="A"){nv.classList.remove("open");bg.textContent="☰"}};
+const ps=$$("[data-p]");
+function tick(){hd.classList.toggle("s",scrollY>40);ps.forEach(i=>{const r=i.parentNode.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight)i.style.transform=`translateY(${(r.top/innerHeight-.5)*-40}px)`})}
+if(!matchMedia("(prefers-reduced-motion:reduce)").matches)addEventListener("scroll",tick,{passive:true});else addEventListener("scroll",()=>hd.classList.toggle("s",scrollY>40),{passive:true});
+tick();
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.15});
+$$(".rv").forEach(el=>io.observe(el));
+links();
+</script>
+</body>
+</html>
